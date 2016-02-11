@@ -1,4 +1,0 @@
-#! /bin/bash
-
-jade index.jade
-phantomjs rasterize.js index.html template.pdf Letter

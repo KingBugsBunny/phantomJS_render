@@ -1,4 +1,0 @@
-#! /bin/bash
-
-jade chart.jade
-phantomjs rasterize.js chart.html charts.pdf Letter

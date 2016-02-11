@@ -1,0 +1,8 @@
+#! /bin/bash
+
+jade index.jade
+phantomjs rasterize.js index.html template.pdf Letter
+jade chart.jade
+phantomjs rasterize.js chart.html charts.pdf Letter
+pdftk charts.pdf background template.pdf output merged.pdf
+
