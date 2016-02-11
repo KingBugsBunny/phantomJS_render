@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="en"><head><title>PDP PDF Chart</title><meta charset="UTF-8"><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="HandheldFriendly" content="true"><style>@font-face {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*@media print {*/
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 8pt;
+    display: block;
+    width: 190mm;
+    height: 259mm;
+    /*border: solid 1px blue;*/
+}
+
+header {
+    font-family: 'Noto Sans', sans-serif;
+    width: 190mm;
+    height: 25mm;
+    background-color: #ccc;
+    display: block;
+    position: fixed;
+    top: 0;
+    /*border: solid 1px green;*/
+}
+
+footer {
+    font-family: 'Noto Sans', sans-serif;
+    width: 190mm;
+    height: 10mm;
+    background-color: #ccc;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    /*border: solid 1px green;*/
+}
+
+footer h4 {
+    font-size: 8pt;
+    line-height: 9mm;
+}
+
+.page {
+    display: block;
+    width: 190mm;
+    /*margin-top: 25mm;
+    margin-bottom: 10mm;*/
+    /*border: solid 1px black;*/
+}
+
+.break {
+    page-break-before: always;
+    margin-top: 1mm;
+}
+
+.page .chart {
+    float: left;
+    width: 53mm;
+    height: 220mm;
+    background-color: #eee;
+    display: block;
+    /*border: solid 1px pink;*/
+}
+
+.page .chart h2 {
+    text-align: center;
+    color: #0f4f6b;
+}
+
+.page .chart-title {
+    width: 1.754in;
+}
+
+.page .content {
+    margin-left: 55mm;
+    /*border: solid 1px red;*/
+    box-decoration-break: clone;
+    display: block;
+}
+
+.svg-content-responsive {
+
+    display: block;
+    width: 1.8in;
+    height: 7.45in;
+
+}
+/*}*/
+</style></head></html><body><div class="page"><div class="chart"></div></div><div class="page break"><div class="chart"><span>blah blah</span></div></div><div class="page break"><div class="chart"><span>blah blah</span></div></div><div class="page break"><div class="chart"><span>blah blah</span></div></div></body>
